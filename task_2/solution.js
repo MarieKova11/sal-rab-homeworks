@@ -9,13 +9,12 @@ function calcShipping(sum, min, shipping) {
         shippingSum = 0;
       }  
     
-      else  ((productsSum > 0) & (productsSum < freeShippingMinSum)) {
+    if (productsSum > 0 && productsSum < freeShippingMinSum) {
         shippingSum = shippingPrice;
         }
 
     return shippingSum;
 }
-
 function calcDiscount(sum, min, discount) {
     let productsSum = sum; // сумма в корзине
     let discountMinSum = min; // минимальная сумма для скидки
