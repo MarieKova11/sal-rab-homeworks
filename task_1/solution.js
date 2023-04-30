@@ -4,11 +4,6 @@ function addInCartMessage(title, price) {
 
     let message;
 
-    message = productName;
-    message = productName + " ";
-    message = productName + " за ";
-    message = productName + " за " + productPrice;
-    message = productName + " за " + productPrice + " ";
     message = productName + " за " + productPrice + " теперь в корзине!";
 
     console.log(message);
